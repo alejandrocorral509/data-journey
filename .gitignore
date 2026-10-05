@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.ipynb_checkpoints/
+
+# Datos grandes / secretos
+*.parquet
+*.db
+.env
+*.log
+
+# Entornos
+.uv/
+.python-version
+
+# Datos en bruto (se descargan desde el enlace del README de datasets/)
+datasets/*.csv
+datasets/**/*.csv
+*.zip
