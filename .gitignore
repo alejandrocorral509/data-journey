@@ -20,3 +20,6 @@ env/
 datasets/*.csv
 datasets/**/*.csv
 *.zip
+
+# Notas locales (no se suben)
+CLAUDE.local.md
