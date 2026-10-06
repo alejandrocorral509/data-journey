@@ -24,8 +24,8 @@ Cada fase termina con un proyecto real, documentado y con conclusiones de negoci
 | 2 | [Dashboard comercial de Olist](02-power-bi/) | Power BI, DAX | 🔲 Pendiente |
 | 3 | [Informe en Excel con tablas dinámicas](03-excel/) | Excel, Power Query | 🔲 Pendiente |
 | 4 | [Análisis A/B y KPIs de negocio](04-estadistica-negocio/) | Excel / Python | 🔲 Pendiente |
-| 5 | [EDA con datos abiertos de España](05-python-pandas/) | Python, pandas | 🔲 Pendiente |
-| 6 | [Proyecto final de principio a fin](06-proyecto-final/) | Python + SQL + Power BI | 🔲 Pendiente |
+| 5 | [EDA: turismo y empleo en hostelería en Cádiz](05-python-pandas/) | Python, pandas | 🔲 Pendiente |
+| 6 | [Hostelería y turismo en Cádiz y Jerez, de principio a fin](06-proyecto-final/) | Python + SQL + Power BI | 🔲 Pendiente |
 
 ---
 
@@ -41,7 +41,6 @@ Cada fase termina con un proyecto real, documentado y con conclusiones de negoci
 
 - Plan semana a semana: [PLAN.md](PLAN.md)
 - Bitácora diaria (qué hice, en qué me atasqué): [BITACORA.md](BITACORA.md)
-- Recursos: [RECURSOS.md](RECURSOS.md)
 
 ---
 

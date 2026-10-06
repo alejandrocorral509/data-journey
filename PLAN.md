@@ -8,9 +8,9 @@
 
 | Hora | Bloque |
 |------|--------|
-| 11:00 – 12:30 | **Bloque 1 · Práctica**: ejercicios y proyecto (lo difícil, con la cabeza fresca) |
+| 11:00 – 12:30 | **Bloque 1 · Curso**: vídeo, escribiendo cada consulta a la vez (pausar, probar, romper cosas) |
 | 12:30 – 12:45 | Descanso (lejos de la pantalla) |
-| 12:45 – 14:30 | **Bloque 2 · Aprender**: curso o documentación, y aplicarlo enseguida |
+| 12:45 – 14:30 | **Bloque 2 · Práctica**: ejercicios sobre lo que acabo de ver |
 | 14:30 – 15:00 | **Cierre**: entrada en [BITACORA.md](BITACORA.md) + `git commit` |
 | Tardes (opcional) | LinkedIn, leer ofertas, repasar el atasco del día |
 
@@ -20,40 +20,37 @@
 
 ## FASE 1 · SQL (semanas 1-4)
 
-> Dataset: **Olist Brazilian E-Commerce** (Kaggle). 9 tablas relacionadas y ~100.000 pedidos reales.
+> Dataset del proyecto: **Olist Brazilian E-Commerce** (Kaggle). 9 tablas relacionadas y ~100.000 pedidos reales.
 
-### Semana 1 (5-11 oct) — Arranque y SQL básico
-- [ ] Crear el repositorio en GitHub y subir esta estructura
-- [ ] Instalar PostgreSQL (o con Docker) y **DBeaver** como cliente
-- [ ] [SQLBolt](https://sqlbolt.com) completo (lecciones 1-18)
-- [ ] SELECT, WHERE, ORDER BY, LIMIT, DISTINCT, operadores, NULL
-- [ ] Contarle a mi mentor qué curso de Udemy es
-- [ ] Bitácora todos los días
-
-### Semana 2 (12-18 oct) — Agregaciones y JOINs
+### Semanas 1-2 (5-14 oct) — Fundamentos de SQL · ~7 días laborables (el 12 de octubre es festivo)
+- [x] Crear el repositorio en GitHub y subir esta estructura
+- [x] SQLBolt, lecciones 1 y 2 (`01-sql/sqlbolt.sql`)
+- [ ] Instalar el entorno: PostgreSQL (o MySQL) + DBeaver
+- [ ] Curso de fundamentos de SQL completo, escribiendo cada consulta
+- [ ] Práctica diaria de ejercicios
+- [ ] SELECT, WHERE, ORDER BY, LIMIT, DISTINCT, NULL
 - [ ] GROUP BY, HAVING, COUNT/SUM/AVG/MIN/MAX
 - [ ] INNER, LEFT, RIGHT y FULL JOIN, y cuándo usar cada uno
-- [ ] Cargar Olist en Postgres (crear tablas, claves primarias y foráneas, importar CSV)
-- [ ] Dibujar el diagrama entidad-relación de Olist (DBeaver lo genera)
-- [ ] 🟡 Empezar Power BI: bloque 2 de martes y jueves con el curso
+- [ ] Contarle a mi mentor qué curso estoy siguiendo
+- [ ] Bitácora todos los días
 
-### Semana 3 (19-25 oct) — SQL intermedio
+### Semana 3 (15-23 oct) — SQL intermedio para analistas (con mi mentor, en español)
 - [ ] Subconsultas y **CTEs** (`WITH`)
-- [ ] CASE WHEN y funciones de fecha (`DATE_TRUNC`, `EXTRACT`) y de texto
-- [ ] Ejercicios fáciles y medios de [DataLemur](https://datalemur.com)
-- [ ] Kaggle Learn: *Intro to SQL* ✅ badge
-
-### Semana 4 (26 oct-1 nov) — Funciones de ventana y proyecto 1
+- [ ] CASE WHEN y funciones de fecha y de texto
 - [ ] **Funciones de ventana**: `ROW_NUMBER`, `RANK`, `LAG`, `LEAD`, sumas acumuladas (lo preguntan en entrevistas)
-- [ ] Kaggle Learn: *Advanced SQL* ✅ badge
+- [ ] Cargar Olist en la base de datos (tablas, claves primarias y foráneas, importar CSV)
+- [ ] Dibujar el diagrama entidad-relación de Olist
+- [ ] 🟡 Empezar Power BI: bloque 2 de 2-3 mañanas por semana
+
+### Semana 4 (26-30 oct) — Proyecto 1
 - [ ] **🚀 PROYECTO 1:** 20 preguntas de negocio sobre Olist resueltas solo con SQL
 - [ ] README del proyecto con hallazgos + commit + post en LinkedIn
 
 ---
 
-## FASE 2 · Power BI (semanas 2-7, en paralelo desde la semana 2)
+## FASE 2 · Power BI (semanas 3-7, en paralelo desde el 15 de octubre)
 
-### Semanas 2-4 — Curso (bloque 2, 2-3 días por semana)
+### Semanas 3-4 — Curso (bloque 2, 2-3 días por semana)
 - [ ] Interfaz, cargar datos, primeros visuales
 - [ ] **Power Query**: limpiar, transformar, combinar
 - [ ] **Modelo en estrella**: tabla de hechos, dimensiones, relaciones y tabla calendario
@@ -106,10 +103,11 @@
 - [ ] Jupyter / VS Code con notebooks y entorno con `uv`
 - [ ] pandas: cargar, inspeccionar, limpiar, `groupby`, `merge`, `pivot_table`
 - [ ] Kaggle Learn: *Pandas* ✅ badge
+- [ ] Localizar y descargar las fuentes del proyecto final (ver [06-proyecto-final](06-proyecto-final/)) y comprobar qué nivel de detalle hay para Cádiz y Jerez
 
 ### Semana 11 (14-20 dic) — Visualización y proyecto 5
 - [ ] Matplotlib y Seaborn: los 6 gráficos que cubren el 90 % de los casos
-- [ ] **🚀 PROYECTO 5:** EDA de datos abiertos españoles (INE, datos.gob.es o Junta de Andalucía), por ejemplo turismo en la provincia de Cádiz
+- [ ] **🚀 PROYECTO 5:** EDA de turismo y empleo en hostelería en la provincia de Cádiz (INE y Seguridad Social). Es la primera exploración de los datos del proyecto final
 - [ ] Candidaturas: 5 o más
 
 ---
@@ -117,7 +115,9 @@
 ## FASE 6 · Proyecto final (semanas 12-13)
 
 ### Semanas 12-13 (21 dic-3 ene) — Navidad: ritmo flexible
-- [ ] **🚀 PROYECTO 6 (el estrella):** de principio a fin
+- [ ] **🚀 PROYECTO 6 (el estrella): Hostelería y turismo en Cádiz y Jerez**, de principio a fin
+  - Pregunta: ¿cuándo hay demanda turística, cómo la sigue el empleo en hostelería y cuándo debería un negocio reforzar o recortar plantilla?
+  - Por qué este tema: trabajo en hostelería en Jerez; es mi forma de demostrar que entiendo el negocio desde dentro (Olist lo usa todo el mundo)
   - Python: descargar y limpiar los datos
   - PostgreSQL: cargarlos y modelarlos
   - SQL: consultas de análisis

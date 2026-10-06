@@ -18,9 +18,9 @@ Sirve para 3 cosas: ver el progreso real, detectar dónde me atasco y **demostra
 ## Semana 1 (5-11 oct) — Arranque y SQL básico
 
 ### Lun 5 oct
-- ✅ Hecho: definir la ruta Data Analyst y reorganizar el repositorio
+- ✅ Hecho: montar el repositorio y el plan; lecciones 1 y 2 de SQLBolt; cambio a un curso en castellano y prueba de nivel
 - 🧱 Atasco:
-- 💡 Aprendizaje del día:
+- 💡 Aprendizaje del día: la prueba de nivel me ha enseñado que tengo que repasar lo básico
 - ⏭️ Mañana:
 
 ### 📝 Resumen semanal (para el mentor)
